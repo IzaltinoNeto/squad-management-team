@@ -1,0 +1,20 @@
+.table {
+    width: 100%;
+
+    color: var(--font-color);
+}
+
+th{
+    text-align: left;
+    padding: 20px;
+}
+
+th:first-of-type{
+    border-right: 1px solid rgba(186, 189, 194, 0.5);
+}
+
+td{
+    text-align: left;
+    padding: 20px;
+    font-weight: 600;
+}

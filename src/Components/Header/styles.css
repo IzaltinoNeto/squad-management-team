@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    background: linear-gradient(98deg, rgba(192,14,78,1) 0%, rgba(138,32,111,1) 95%);
+    padding: 0 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5%;
+  }
+  
+  .header > * {
+    padding: 0 2%;
+    
+  }
+
+  .title{
+      color: #FFFFFF;
+      font-size: 24px;
+      font-weight: 500;
+  }
+  .user-name{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 500;
+  }

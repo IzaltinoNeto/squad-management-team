@@ -28,6 +28,23 @@
   color: #61dafb;
 }
 
+
+
+.second-gradient{
+  width: 400px;
+  height: 600px;
+  background: linear-gradient(165deg, rgba(176,58,123,1) 0%, rgba(115,43,128,1) 90%);
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+}
+
+.middle-line{
+  border: 1px solid gray;
+  position: fixed;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +53,5 @@
     transform: rotate(360deg);
   }
 }
+
+
