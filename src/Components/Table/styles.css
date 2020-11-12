@@ -1,6 +1,6 @@
 .table {
     width: 100%;
-
+    border-collapse: collapse;
     color: var(--font-color);
 }
 
@@ -17,4 +17,40 @@ td{
     text-align: left;
     padding: 20px;
     font-weight: 600;
+    background-color: inherit;
+    border: inherit;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+td + td {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+tbody > tr:hover{
+    cursor: pointer;
+    background-color: #f7eef7;
+    color: #a94f8c;
+    border-color: #a94f8c;
+
+}
+
+
+.description-cel{
+    display: flex;
+}
+
+.delete-icon{
+    margin-left: auto;
+}
+.actions-button{
+    visibility: hidden;
+    margin-left: auto;
+}
+
+tbody > tr:hover .actions-button {
+    visibility: visible;
 }
